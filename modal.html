@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> فاتورة</title>
+    <!-- main css -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.1/js/bootstrap.min.js"
+        integrity="sha512-ewfXo9Gq53e1q1+WDTjaHAGZ8UvCWq0eXONhwDuIoaH8xz2r96uoAYaQCm1oQhnBfRXrvJztNXFsTloJfgbL5Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- main css -->
+    <!-- main js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.1/css/bootstrap.min.css"
+        integrity="sha512-6KY5s6UI5J7SVYuZB4S/CZMyPylqyyNZco376NM2Z8Sb8OxEdp02e1jkKk/wZxIEmjQ6DRCEBhni+gpr9c4tvA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- main js -->
+    <style>
+        .content_modal_ks {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: start;
+            list-style: none;
+        }
+
+        .content_modal_ks li {
+            font-family: 'regular';
+            font-size: 1rem;
+            color: #2e2c34;
+            width: 100%;
+        }
+
+        .content_modal_ks li span {
+            font-family: 'bold';
+            font-size: 1.2rem;
+            color: #1b312e;
+            padding-inline-end: 2%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn first" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  التعاقد
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="content_modal_ks p-0">
+                        <li><span>تاريخ التعاقد:</span> 25/8/2020 </li>
+                    </ul>
+                    <h4 class="text-center head-small">الطرف الأول</h4>
+                    <ul class="content_modal_ks p-0">
+                        <li><span> الأسم:</span> الشركة </li>
+                        <li><span> البريد الألكتروني:</span> الشركة </li>
+                        <li><span> رقم المحمول:</span> الشركة </li>
+                    </ul>
+                    <h4 class="text-center head-small">الطرف الثاني</h4>
+                    <ul class="content_modal_ks p-0">
+                        <li><span> الأسم:</span> الشركة </li>
+                        <li><span> البريد الألكتروني:</span> الشركة </li>
+                        <li><span> رقم المحمول:</span> الشركة </li>
+                    </ul>
+                    <ul class="content_modal_ks p-0">
+                        <li><span> قيمة التعاقد:</span> 500ريال </li>
+                    </ul>
+                    <div class="parg">
+                        <h4>بنود التعاقد</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nihil repellat beatae
+                            reiciendis veniam velit quos cumque fugiat vel, iusto deleniti natus iure omnis neque
+                            laboriosam harum officiis error placeat!</p>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

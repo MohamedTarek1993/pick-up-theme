@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> فاتورة</title>
+    <!-- main css -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.1/js/bootstrap.min.js"
+        integrity="sha512-ewfXo9Gq53e1q1+WDTjaHAGZ8UvCWq0eXONhwDuIoaH8xz2r96uoAYaQCm1oQhnBfRXrvJztNXFsTloJfgbL5Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- main css -->
+    <!-- main js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.1/css/bootstrap.min.css"
+        integrity="sha512-6KY5s6UI5J7SVYuZB4S/CZMyPylqyyNZco376NM2Z8Sb8OxEdp02e1jkKk/wZxIEmjQ6DRCEBhni+gpr9c4tvA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- main js -->
+    <style>
+        h1 {
+            font-family: 'bold';
+            text-align: #000;
+        }
+
+        h4 {
+            font-family: 'regular';
+            text-align: #ccc;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 1px solid #c2c2c2;
+            padding-left: 0;
+
+        }
+
+        li {
+
+            font-size: 1.2rem;
+            color: #040404;
+            width: 50%;
+            padding: 0 1%;
+
+        }
+
+        li:nth-child(even) {
+            text-align: end;
+        }
+
+        /* li:nth-child(2) {
+            border-right: 1px solid #000;
+        } */
+
+        li:nth-child(odd) ,li:nth-child(even) {
+            text-align: start;
+        }
+
+        .client_row {}
+
+        .client_row .client {
+            width: 100%;
+        }
+
+        .client_row ul {
+            background-color: #ccc;
+        }
+
+        .client_row ul li {
+            color: white;
+        }
+
+        .fat_num:nth-child(2) {}
+
+        .fat_num li {
+            font-size: .9rem;
+            padding: 3px;
+        }
+
+        .fat_num li:nth-child(even) {
+            border-right: 1px solid #ccc;
+        }
+
+        .service_row {
+            margin: 3% 0;
+        }
+
+        .service_row ul,
+        .total_row ul {
+            background-color: #ccc;
+        }
+
+        .service_row ul li,
+        .total_row ul li {
+            width: 50%;
+            color: white;
+        }
+
+        .service_row ul li:nth-child(1),
+        .total_row ul li:nth-child(1) {
+            border-right: 1px solid transparent;
+        }
+
+        .service_row ul li:nth-child(2),
+        .total_row ul li:nth-child(2) {
+            border-right: unset;
+        }
+
+        .service_row .service th,
+        .service_row .service td {
+            width: calc(100% / 8);
+        }
+
+        .service_row .service th {
+            background-color: #010101;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="fatoora py-5">
+        <div class="container text-center">
+            <h1>فاتورة ضريبة</h1>
+            <h4>Tax Invoice</h4>
+            <div class="row my-3">
+                <div class="col-lg-6 col-12">
+                    <a href="https://imgbb.com/"><img class="mt-5" src="https://i.ibb.co/5GwgTqg/qpr.png" alt="qpr"
+                            border="0"></a>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <ul class="fat_num my-5">
+                        <li>رقم الفاتورة</li>
+                        <li>100</li>
+                        
+                    </ul>
+                    <ul class="fat_num my-0">
+                        <li>تاريخ اصدار الفاتورة </li>
+                        <li>25/8/2022</li>
+                        
+                    </ul>
+                    <ul class="fat_num">
+                        <li>رقم الفاتورة</li>
+                        <li>25/8/2022</li>
+                       
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="row client_row my-3">
+                <ul class="my-0">
+                    
+                    <li>
+                        :المورد</li>
+                  
+                    <li>
+                        :العميل</li>
+                </ul>
+                <div class="col-lg-6 px-0">
+                    <table class="client">
+                        <tbody>
+                            <tr>
+
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                            <tr>
+
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                            <tr>
+
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                            <tr>
+
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                            <tr>
+
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                            <tr>
+
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                            <tr>
+
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                            <tr>
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-lg-6 px-0">
+                    <table class="client">
+                        <tbody>
+                            <tr>
+                               
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                            <tr>
+                               
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                            <tr>
+                               
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                            <tr>
+                               
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                            <tr>
+                               
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                            <tr>
+                               
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                            <tr>
+                               
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                            <tr>
+                               
+                                <td> محمد</td>
+                                <td>الأسم</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <div class="row service_row">
+                <ul class="my-0">
+                   
+                    <li>توصيف السلعة او الخدمة</li>
+                </ul>
+                <table class="service ">
+                    <thead>
+                        <tr>
+                            <th>Total Amount :</th>
+                            <th> :اجمالي المبلغ</th>
+                            <th>Total Amount :</th>
+                            <th> :اجمالي المبلغ</th>
+                            <th>Total Amount :</th>
+                            <th> :اجمالي المبلغ</th>
+                            <th> :اجمالي المبلغ</th>
+                            <th>Total Amount :</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            </td>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="row total_row">
+                <ul class="my-0">
+                    <li>Total Amount :</li>
+                    <li> :اجمالي المبلغ</li>
+                </ul>
+                <table class="total">
+
+                    <tbody>
+                        <tr>
+
+                            <td>total</td>
+                            <td>الأجمالي</td>
+                            <td>900SAR</td>
+                        </tr>
+                        <tr>
+
+                            <td>DISCOUNT</td>
+                            <td>مجموعه الخصومات</td>
+                            <td>900SAR</td>
+
+
+                        </tr>
+                        <tr>
+
+                            <td>TOTAL AMOUNT</td>
+                            <td> لأجمالي</td>
+                            <td>900SAR</td>
+
+                        </tr>
+                        <tr>
+
+                            <td>total</td>
+                            <td>مجموعة الضريبة المفروضة</td>
+                            <td>900SAR</td>
+
+
+                        </tr>
+                        <tr>
+
+                            <td>total AMOUNT Due</td>
+                            <td> اجمالي المبالغ المستحق</td>
+                            <td>900SAR</td>
+
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>

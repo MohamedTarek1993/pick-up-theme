@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Pick Up</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="scss/main.min.css" />
+    <!-- main css -->
+    <!-- responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- responsive -->
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper-demos.css">
+    <!-- swiper -->
+    <!-- animation -->
+    <link rel="stylesheet" href="css/aos-anmite.css" />
+    <!-- animation -->
+    <!-- ? Favicon -->
+    <link rel="icon" href="./image/logo-icon.ico" type="image" />
+
+    <!-- ? Favicon -->
+</head>
+
+<body>
+    <!---------------------- start loader -------------------------------------------->
+    <div id="preloader"></div>
+    <!---------------------- finish loader -------------------------------------------->
+    <!---------------------- start scroll-up -------------------------------------------->
+    <a id="button" class="scroll-up"><i class="bi bi-chevron-up"></i></a>
+    <!---------------------- finish scroll-up -------------------------------------------->
+
+    <!-- =========== ? NavBar =========== -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us"> About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service" class="nav-link">Our Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#connect"> Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        العربية
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#"> English</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- =========== ? NavBar =========== -->
+
+    <!---------------------- start hero section -------------------------------------------->
+    <section class="hero_section" id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12" id="hero_lf">
+                    <div class="main_content_start">
+                        <h2>One Click To Create
+                            Your Own Store</h2>
+                        <p>Providing applications for restaurants and stores with great potential to facilitate
+                            e-commerce
+                            and online purchases for all application customers
+                        </p>
+                    </div>
+                    <div class="button">
+                        <a href="#" class="btn first">Create</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12" id="hero_rg">
+                    <div class="img">
+                        <img src="image/hero.png" alt="hero">
+                        <img class="shape one" src="image/shape1.png" alt="shape">
+                        <img class="shape two" src="image/shape2.png" alt="shape">
+                        <img class="shape three" src="image/shape3.png" alt="shape">
+                        <img class="shape four" src="image/shape4.png" alt="shape">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!---------------------- finish hero section -------------------------------------------->
+    <!---------------------- start our client -------------------------------------------->
+    <div class="client_section">
+        <div class="container">
+            <div class="main_title_center">
+                <h2> Our Sponsers</h2>
+            </div>
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="image/printer1.png" alt="client">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="image/printer2.png" alt="client">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="image/printer3.png" alt="client">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="image/printer4.png" alt="client">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="image/printer5.png" alt="client">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="image/printer6.png" alt="client">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------- finish our client -------------------------------------------->
+    <!---------------------- start feature -------------------------------------------->
+    <section class="feature_section" id="about-us">
+        <div class="container">
+            <div class="main_title_center">
+                <h2>Our Good Features</h2>
+                <p>The Best Features we present to expand your business</p>
+            </div>
+            <div class="service_boxes">
+                <div class="box">
+                    <div class="content">
+                        <div class="img">
+                            <img src="image/feature1.png" alt="serve1">
+                        </div>
+                        <h6> Multiple Payment Options</h6>
+                        <p> The application enables all your customers to pay
+                            through multiple payment options such as
+                            electronic payment or upon receipt</p>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <div class="img">
+                            <img src="image/feature2.png" alt="serve1">
+                        </div>
+                        <h6>Foreign
+                            Investment</h6>
+                        <p>The requests were divided to suit them greatly, such as the requests for delivery, the car,
+                            and the takeaway </p>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+    </section>
+    <!---------------------- finish feature -------------------------------------------->
+    <!---------------------- start version -------------------------------------------->
+    <section class="version_section">
+        <div class="container">
+
+            <div class="main_title_center">
+                <h2>Our Versions </h2>
+                <p> Different Versions of pickup
+                </p>
+            </div>
+
+            <div class="swiper mySwiper-2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="content">
+                                <div class="main_content_start">
+                                    <h2>Delivery representative app </h2>
+                                    <p>A special application for delivery to organize take-out orders between delivery
+                                        agents and
+                                        send them notifications of the order, address and any other notes A special
+                                        application for
+                                        delivery to organize take-out orders between delivery agents and send them
+                                        notifications of
+                                        the order, address and any other notes</p>
+                                </div>
+                                <div class="button">
+                                    <a class="first btn" href="#">Get the app</a>
+                                </div>
+                            </div>
+                            <div class="img">
+                                <img src="image/version.png" alt="version">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="content">
+                                <div class="main_content_start">
+                                    <h2>Delivery representative app </h2>
+                                    <p>A special application for delivery to organize take-out orders between delivery
+                                        agents and
+                                        send them notifications of the order, address and any other notes A special
+                                        application for
+                                        delivery to organize take-out orders between delivery agents and send them
+                                        notifications of
+                                        the order, address and any other notes</p>
+                                </div>
+                                <div class="button">
+                                    <a class="first btn" href="#">Get the app</a>
+                                </div>
+                            </div>
+                            <div class="img">
+                                <img src="image/version.png" alt="version">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-button-next"><i class="bi bi-arrow-right-circle"></i></div>
+                <div class="swiper-button-prev"><i class="bi bi-arrow-left-circle"></i></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!---------------------- finish version -------------------------------------------->
+
+    <!---------------------- start SERVICE -------------------------------------------->
+    <section class="service_section" id="service">
+        <div class="container">
+
+            <div class="main_title_center">
+                <h2>services we offer </h2>
+                <p> We just offer The Best Services
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="main_content_start">
+                        <h2>Delivery representative app </h2>
+                        <p>A special application for delivery to organize take-out orders between delivery agents and
+                            send them notifications of the order, address and any other notes A special application for
+                            delivery to organize take-out orders between delivery agents and send them notifications of
+                            the order, address and any other notes</p>
+                    </div>
+                    <div class="button">
+                        <a class="first btn" href="#">Get the app</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="img">
+                        <img src="image/service1.png" alt="service">
+                        <img class="border_img" src="image/before-service.png" alt="service">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="main_content_start">
+                        <h2>Customer Service App </h2>
+                        <p>A special application for delivery to organize take-out orders between delivery agents and
+                            send them notifications of the order, address and any other notes A special application for
+                            delivery to organize take-out orders between delivery agents and send them notifications of
+                            the order, address and any other notes</p>
+                    </div>
+                    <div class="button">
+                        <a class="first btn" href="#">Get the app</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="img">
+                        <img src="image/service2.png" alt="service">
+                        <img class="border_img" src="image/before-service.png" alt="service">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="main_content_start">
+                        <h2>Branches </h2>
+                        <p>A special application for delivery to organize take-out orders between delivery agents and
+                            send them notifications of the order, address and any other notes A special application for
+                            delivery to organize take-out orders between delivery agents and send them notifications of
+                            the order, address and any other notes</p>
+                    </div>
+                    <div class="button">
+                        <a class="first btn" href="#">Get the app</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="img">
+                        <img src="image/service3.png" alt="service">
+                        <img class="border_img" src="image/before-service.png" alt="service">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------- finish SERVICE -------------------------------------------->
+
+    <!---------------------- start app -------------------------------------------->
+    <section class="app_section">
+        <div class="container">
+            <div class="main_title_center">
+                <h2>Visit Our Application </h2>
+                <p> some screens from our application
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12 xz">
+                    <div class="img">
+                        <img src="image/app 1.png" alt="app">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 xz">
+                    <div class="img">
+                        <img src="image/app2.png" alt="app">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 xz">
+                    <div class="img">
+                        <img src="image/app3.png" alt="app">
+                    </div>
+                </div>
+            </div>
+
+            <div class="app_button">
+                <a href="#" target="_blank"> <img src="image/app.png" alt="app"></a>
+                <a href="#" target="_blank"> <img src="image/google2.png" alt="app"></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!---------------------- finish app -------------------------------------------->
+
+    <!---------------------- start package -------------------------------------------->
+    <section class="package_section">
+        <div class="container">
+            <div class="main_title_center">
+                <h2>Pickup Packages </h2>
+                <p>Create your store now and choose the right package later
+                </p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="package_box">
+                        <div class="head">
+                            <div class="img">
+                                <img src="image/golden.png" alt="package">
+                            </div>
+                            <div class="text">
+                                <h4>Golden Package </h4>
+                                <p> <span>2200</span> LE/Month </p>
+                            </div>
+                        </div>
+                        <div class="body">
+                            <p> <i class="bi bi-check-lg"></i> All Features in Golden </p>
+                            <p> <i class="bi bi-check-lg"></i> customer service app </p>
+
+                        </div>
+
+                        <div class="button">
+                            <a class="first btn" href="#"> Choose The Package</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="package_box">
+                        <div class="head">
+                            <div class="img">
+                                <img src="image/basic.png" alt="package">
+                            </div>
+                            <div class="text">
+                                <h4>Diamond Package </h4>
+                                <p> <span>2200</span> LE/Month </p>
+                            </div>
+                        </div>
+                        <div class="body">
+                            <p> <i class="bi bi-check-lg"></i> All Features in Golden </p>
+                            <p> <i class="bi bi-check-lg"></i> customer service app </p>
+
+                        </div>
+
+                        <div class="button">
+                            <a class="first btn" href="#"> Choose The Package</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="package_box">
+                        <div class="head">
+                            <div class="img">
+                                <img src="image/golden.png" alt="package">
+                            </div>
+                            <div class="text">
+                                <h4>Diamond Package </h4>
+                                <p> <span>2200</span> LE/Month </p>
+                            </div>
+                        </div>
+                        <div class="body">
+                            <p> <i class="bi bi-check-lg"></i> All Features in Golden </p>
+                            <p> <i class="bi bi-check-lg"></i> customer service app </p>
+
+                        </div>
+
+                        <div class="button">
+                            <a class="first btn" href="#"> Choose The Package</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!---------------------- finish package -------------------------------------------->
+
+    <!---------------------- start testiomnies -------------------------------------------->
+    <section class="testiomnies">
+        <div class="container">
+            <div class="main_title_center">
+                <h2>Our Clients </h2>
+                <p>join our client list in pick up
+                </p>
+            </div>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box_testiomnies">
+                            <div class="img">
+                                <img src="image/test1.png" alt="test">
+                            </div>
+                            <h4>Ahmed Ali</h4>
+                            <span>Manager</span>
+                            <div class="rates">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box_testiomnies">
+                            <div class="img">
+                                <img src="image/test1.png" alt="test">
+                            </div>
+                            <h4>Ahmed Ali</h4>
+                            <span>Manager</span>
+                            <div class="rates">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box_testiomnies">
+                            <div class="img">
+                                <img src="image/test1.png" alt="test">
+                            </div>
+                            <h4>Ahmed Ali</h4>
+                            <span>Manager</span>
+                            <div class="rates">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!---------------------- finish testiomnies -------------------------------------------->
+
+    <!---------------------- start subscripe -------------------------------------------->
+    <section class="subscripe_section" id="connect">
+        <div class="container">
+            <div class="box">
+                <img src="image/subscripe.png" alt="subscripe">
+                <div class="main_title_center">
+                    <h6>Contact Us</h6>
+                    <p>If you have a request, you can contact us</p>
+                </div>
+                <form action="#">
+                    <input class="form-control" type="email" placeholder="Enter the email">
+                    <button class="btn" type="submit"> <i class="bi bi-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!---------------------- finish subscripe -------------------------------------------->
+    <!---------------------- start footer -------------------------------------------->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="logo_footer">
+                        <img src="image/logo.png" alt="logo">
+                    </div>
+                    <p class="about">Pickup is an electronic platform
+                        that provides a special application
+                        for your restaurant (or online store) </p>
+                    <ul class="social_icon">
+                        <li><a href="#" target="_blank"><i class="bi bi-facebook"></i> </a></li>
+                        <li><a href="#" target="_blank"> <i class="bi bi-linkedin"></i></a></li>
+                        <li><a href="#" target="_blank"> <i class="bi bi-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h2 class="header_footer">pages</h2>
+                    <ul class="imprtant_links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Features</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#connect">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h2 class="header_footer">Other Links </h2>
+                    <ul class="imprtant_links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Features</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#connect">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h2 class="header_footer">Contact Us </h2>
+                    <ul class="imprtant_links">
+                        <li> <a href="tel:01093140277"> 0109654245125414 </a></li>
+                        <li> <a href="tel:01093140277"> 0109654245125414 </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="lower_footer">
+        <p>All copyright reserved@pickup 2022</p>
+    </div>
+    <!---------------------- finish footer -------------------------------------------->
+
+
+
+    <!-- Strat footer -->
+
+    <!-- finish footer -->
+
+    <!-- main js -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- main js -->
+    <!-- swiper -->
+    <script src="js/swiper-demos.js"></script>
+    <!-- swiper -->
+    <!-- animation -->
+    <script src="js/aos-anmite.js"></script>
+    <script>
+        AOS.init({
+            disable: function () {
+                var maxWidth = 700;
+                return window.innerWidth < maxWidth;
+            }
+        });
+    </script>
+    <!-- animation -->
+
+    <!-- client slider -->
+    <script>
+        var swiper = new Swiper(".mySwiper-1", {
+            slidesPerView: 5,
+            spaceBetween: 10,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 50,
+                },
+            },
+        });
+    </script>
+    <!-- client slider -->
+
+    <!-- testiomnies slider -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 10,
+            loop: true,
+            // autoplay: {
+            //     delay: 2500,
+            //     disableOnInteraction: false,
+            // },
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+            },
+        });
+    </script>
+    <!-- testiomnies slider -->
+    <!-- version slider -->
+    <script>
+        var swiper = new Swiper(".mySwiper-2", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+    <!-- version slider -->
+
+    <script>
+        //animation
+        const hero = document.getElementById('hero');
+        function checkBoxes() {
+            const triggerBottom = window.innerHeight / 5 * 4;
+            boxes.forEach(box => {
+                const boxTop = box.getBoundingClientRect().top
+
+                if (boxTop < triggerBottom) {
+                    box.classList.add('animate_hero');
+                } else {
+                    box.classList.remove('animate_hero');
+                }
+            })
+        }
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
